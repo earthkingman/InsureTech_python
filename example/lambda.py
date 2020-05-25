@@ -12,6 +12,7 @@ myLambda = lambda x,y: x+y if x==y else x-y
 print(myLambda(10,11))
 
 # lisst comprehension에 적용하기
-myLambda=lambda  x:x%4
+myLambda=lambda  x:x%4  # x가 0이되면 컴퓨터는 false
 myList = [i for i in range(1,11) if myLambda(i)]
+
 print(myList)
