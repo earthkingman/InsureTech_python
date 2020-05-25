@@ -17,3 +17,5 @@ print(str1[3:5])
 str_num="123"
 print(str_num+str_num)
 print(str_num*3)
+
+
